@@ -24,7 +24,7 @@ gifs.forEach(gifSrc => {
 no.addEventListener("click", () => {
   if (count == 2) {
     gif.src = "../resources/rusure.gif";// gif credit: https://knowyourmeme.com/photos/2738959-mr-fresh-side-eye-cat
-    text.innerHTML = "You meant to press YES right?🤨";
+    text.innerHTML = "You mean to press YES right?🤨";
     yes.style.height = "65%";
     yes.style.width = "60%";
     no.style.width = "30%";
